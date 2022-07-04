@@ -14,7 +14,7 @@ public class LoginController {
     @PostMapping("/loginIn")
     public String loginIn(){
         System.out.println("hello");
-        System.out.println("修改了");
+        
         return "null";
     }
 }
