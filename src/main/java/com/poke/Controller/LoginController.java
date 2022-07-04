@@ -13,6 +13,6 @@ public class LoginController {
     }
     @PostMapping("/loginIn")
     public String loginIn(){
-        return null;
+        return "null";
     }
 }
